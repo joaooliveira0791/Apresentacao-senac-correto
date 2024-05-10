@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    
+}
+
+.cabecalho-imagem {
+    border-radius: 20px; 
+    height: 220px;
+    width: 210px;
+    
+ 
+}
+.imagem3 {
+    height: 210px;
+    width: 270px;
+    border-radius: 20px;
+}
+
+.imagem2 {
+    height: 210px;
+    width: 210px;
+    border-radius: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+   color: white;
+   font-size: 20px;
+
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    color: black;
+
+}
+p{
+    font-size: 23px;
+}
+button{ 
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #ff1712;
+    box-shadow: 10px 13px 30px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 20px;
+
+
+}
+button:hover {
+    transform: scale(1.2);
+    background-color: blue ;
+}
+
+
+
